@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Movies from '../Movies.json'
 import "./Discribtion.css"
+import Footer from "../components/Footer/Footer"
 import { FaPlayCircle } from "react-icons/fa";
 import { BsFillStarFill,BsFillCloudArrowDownFill } from "react-icons/bs";
 import { useParams } from 'react-router-dom';
+import Header from '../components/Header/Header'
 function Discribtion_page() {
   const [download, setdownload] = useState("")
     const {id} = useParams()
@@ -19,7 +21,7 @@ setdownload(my_movies[0].download)
   
   return (
     <>
-
+<Header/>
 
 
     {data.map((ele,i)=>{
@@ -89,7 +91,7 @@ setdownload(my_movies[0].download)
     
     
     
-    
+    <Footer/>
     </>
   )
 }

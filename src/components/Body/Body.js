@@ -41,7 +41,7 @@ const prev = ()=>{
     </div>
      <div className='movie_banners_cont'>
 {
-movies.map((ele,i)=>{
+movies?.map((ele,i)=>{
   
   return(
              <div key={i} className='movie_banner'>
