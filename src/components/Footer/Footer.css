@@ -106,7 +106,7 @@ cursor: pointer;
     background-color: dodgerblue;
     display: inline-block;
     height: 5px;
-    left: -50px;
+    left: -51px;
     
     margin-top: -4px;
     position: absolute;
@@ -186,3 +186,14 @@ cursor: pointer;
 
 /*                        Mobile L                              */
 @media screen and (max-width: 425px) and (min-width: 376px){}
+
+.fbtn{
+position: absolute;
+right: -50px;
+top: 2px;
+
+}
+.fbtn:hover{
+
+  cursor: pointer;
+}

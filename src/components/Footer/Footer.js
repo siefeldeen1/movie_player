@@ -38,10 +38,14 @@ function Footer() {
                <h3>Contect us<div className='under'><span className='spam'></span></div></h3> 
             <div>
               <div>
-            <input className='input' type="text" placeholder="Please Enter Text"  />
-            <BsFillArrowRightSquareFill/>
-            </div>
+            <input className='input' type="text" placeholder="Please Enter Text" id='popo' />
+          
             <span class="underline"></span>
+           <div  className='fbtn'>
+           <BsFillArrowRightSquareFill  size={26 } onClick={()=> document.querySelector("#popo").value=""} />
+           </div>
+            </div>
+            
             
             </div>
                 <div className='icons'>
