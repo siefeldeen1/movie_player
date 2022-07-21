@@ -22,8 +22,8 @@ function Footer() {
                 <h3>Office <div className='under'><span className='spam'></span></div></h3>
                 <p>715 Pawnee St.
                 New Port Richey, FL 34653,USA</p>
-                <div>gianlucca.chaden@fillnoo.com</div>
-                <p>+20-0123456798</p>
+                <div>sirsiefeldeen@gmail.com</div>
+                <p>+20-01274346857</p>
             </div>
 
             <div className='col' > 
