@@ -15,7 +15,7 @@ justify-content:space-between ;
 background-color: #010101;
 align-items: center;
 padding: 15px;
-margin-bottom: 20px;
+
 
 
 
@@ -47,4 +47,140 @@ cursor: pointer;
   color: white;
   
  
+}
+
+
+
+/*                        Mobile S                             */
+@media screen and (max-width: 320px) and (min-width: 0px){
+  .left_header{
+    color: white;
+    margin-left: 13px;
+    font-size: 11px;
+    
+    }
+.header{
+  width: 100%;
+padding: 0;
+}
+
+.right_header{
+  gap: 15px;
+ display: flex;
+ align-items: center;
+  margin-right:5px;
+font-size: 10px;
+}
+
+
+
+}
+
+
+
+/*                        Mobile M                              */
+@media screen and (max-width: 325px) and (min-width: 0px){
+
+  .left_header{
+    color: white;
+    margin-left: 10px;
+    font-size: 9px;
+    
+    }
+.header{
+  width: 100%;
+padding: 0;
+}
+
+.right_header{
+  gap: 15px;
+ display: flex;
+ align-items: center;
+  margin-right:5px;
+font-size: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) and (min-width:326px){
+    
+  .left_header{
+    color: white;
+    margin-left: 13px;
+    font-size: 11px;
+    
+    }
+.header{
+  width: 100%;
+padding: 0;
+}
+
+.right_header{
+  gap: 15px;
+ display: flex;
+ align-items: center;
+  margin-right:5px;
+font-size: 10px;
+}
+    
+}
+
+@media screen and (max-width: 800px) and (min-width: 601px){
+    
+}
+
+
+
+@media screen and (max-width: 950px) and (min-width: 801px){
+  
+
+}
+
+
+
+@media screen and (max-width: 1440px) and (min-width: 1025px){
+
+
+
+}
+
+
+
+@media screen and (max-width: 2000px) and (min-width: 1441px){
+
+  
+
+
+
+}
+
+
+
+@media screen and (max-width: 1700px) and (min-width: 1601px){
+    
+
+}
+
+
+
+@media screen and (max-width: 1900px) and (min-width: 1701px){
+    
+
+
+
+
+}
+@media screen and (max-width: 2000px) and (min-width: 1901px){
+    
+   
+
+
 }

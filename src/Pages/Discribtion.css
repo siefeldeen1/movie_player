@@ -3,6 +3,7 @@ table {
     border-collapse: collapse;
     width: 100%;
   margin-left: 10px;
+  margin-top: 5px;
   }
   
   td, th {
@@ -19,7 +20,7 @@ table {
 .table_img{
 display: flex;
 flex-direction: row;
-
+margin-top: 10px;
 }
 .down_btn{
 background-color: green;
@@ -35,8 +36,8 @@ cursor: pointer;
 }
 
 .table_img>img{
-min-width: 300px;
-min-height: 435px;
+width: 300px;
+height: 435px;
 
 
 }
@@ -60,5 +61,119 @@ justify-content: center;
 align-items: center;
 gap: 25px;
 margin-top: 15px;
+
+}
+
+
+.hra{
+  max-width: 60%;
+}
+
+
+/*                        TAblet                             */
+@media screen and (max-width: 400px) and (min-width: 0px){
+ 
+  .table_img{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    }
+    .table_img>img{
+      width: 280px;
+      height: 412px;
+ 
+      }
+     
+        td, th {
+         
+          padding: 1px;
+         
+        }
+        table {
+         
+          width: 95%;
+        
+        }
+
+}
+
+@media screen and (max-width: 600px) and (min-width: 401px){
+ 
+  .table_img{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    }
+    .table_img>img{
+      width: 280px;
+      height: 412px;
+ 
+      }
+     
+        td, th {
+         
+          padding: 1px;
+         
+        }
+        table {
+         
+          width: 95%;
+        
+        }
+
+
+
+}
+
+@media screen and (max-width: 800px) and (min-width: 601px){
+  
+
+     
+  
+    
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 801px){
+
+
+}
+
+
+
+@media screen and (max-width: 1440px) and (min-width: 1025px){
+
+ 
+
+}
+
+
+
+@media screen and (max-width: 1700px) and (min-width: 1441px){
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1900px) and (min-width: 1701px){
+    
+
+  
+}
+@media screen and (max-width: 2000px) and (min-width: 1901px){
+    
+  
 
 }

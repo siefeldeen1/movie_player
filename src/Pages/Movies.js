@@ -9,7 +9,7 @@ function Movies() {
     <div >
     <Header movies={true}/>
     
-    <div style={{display:"grid",gridTemplateColumns:"25% 25% 25% 25%",gap:"25px",justifyContent:"center",justifyItems:"center",}} ><Card /></div>
+    <div className='sho' ><Card /></div>
     
    
     <Footer/>

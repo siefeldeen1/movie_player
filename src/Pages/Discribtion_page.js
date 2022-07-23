@@ -65,9 +65,9 @@ setdownload(my_movies[0].download)
   
     
 
-    <tr>
-    <th>Description</th>
-    <td style={{width:"60%"}}>{ele.description}</td>
+    <tr >
+    <th className='booo'>Description</th>
+    <td className='hra'>{ele.description}</td>
     </tr>
   
   </table>

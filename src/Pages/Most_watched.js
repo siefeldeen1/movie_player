@@ -17,7 +17,7 @@ function Most_watched() {
     return (
       <>
       <Header most={true}/>
-      <div className='cony' style={{display:"grid",gridTemplateColumns:"25% 25% 25% 25%",gap:"25px",justifyContent:"center",justifyItems:"center"}}>
+      <div className='cony' >
         
       {top.map((ele,i)=>{
         

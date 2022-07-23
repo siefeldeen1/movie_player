@@ -19,7 +19,7 @@ setseries(Tv_series)
     <Header series={true}/>
     {seriez.map((ele,i)=>{
      return(
-<div  style={{display:"grid",gridTemplateColumns:"25% 25% 25% 25%",gap:"25px",justifyContent:"center",justifyItems:"center"}}>
+<div  style={{display:"flex",justifyContent:"center"}}>
       <div className='mother'>
 
       <div  key={i} className='kid' onClick={() =>

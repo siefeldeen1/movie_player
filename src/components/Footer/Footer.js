@@ -12,13 +12,13 @@ function Footer() {
   return (
     <>
     <div className='foot'>
-        <div className='col'>
+        <div className='cole'>
             <h1>45K</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusamus ullam ipsum laboriosam, nam quam error hic omnis, dolorem cum numquam amet veritatis quasi. Quasi architecto quae tenetur nisi sed.</p>
         
         </div>
 
-            <div className='col'>
+            <div className='cole'>
                 <h3>Office <div className='under'><span className='spam'></span></div></h3>
                 <p>715 Pawnee St.
                 New Port Richey, FL 34653,USA</p>
@@ -26,7 +26,7 @@ function Footer() {
                 <p>+20-01274346857</p>
             </div>
 
-            <div className='col' > 
+            <div className='cole' > 
             <h3>Links<div className='under'><span className='spam'></span></div></h3>
             <div onClick={() =>navigate("/")}>Home</div>
             <div onClick={() =>navigate("/Movies")}        >Movies</div>
@@ -34,8 +34,8 @@ function Footer() {
             <div onClick={() =>navigate("/Most_watched")} >Most watched</div>  
             </div>
 
-            <div  className='col' >
-               <h3>Contect us<div className='under'><span className='spam'></span></div></h3> 
+            <div  className='cole' >
+               <h3>Contact us<div className='under'><span className='spam'></span></div></h3> 
             <div>
               <div>
             <input className='input' type="text" placeholder="Please Enter Text" id='popo' />

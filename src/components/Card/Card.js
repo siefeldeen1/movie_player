@@ -22,7 +22,7 @@ setmm(mo)
                   navigate("/Discribtion_page/"+ele.id) }>
 
             <img  className='img_banner' src={ele.img} alt=""/>
-                    <div style={{maxWidth:"90%",textAlign:"center",fontWeight:"500"}}>{ele.name}</div> 
+                    <div style={{maxWidth:"70%",textAlign:"center",fontWeight:"500"}}>{ele.name}</div> 
                     <div style={{textAlign:"center",fontSize:"20px",fontWeight:"700",color:"black"}}>{ele.rating}</div>
                     
         </div>

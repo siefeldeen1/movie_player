@@ -35,8 +35,8 @@ const prev = ()=>{
    
    <h2>Popular on 45K</h2>
     <div className='arrows' >
-    <GrFormPreviousLink size={45} onClick={prev} />
-    <GrFormNextLink  size={45} onClick={next}    />
+    <GrFormPreviousLink size={45} style={{display:"flex",justifyContent:"flex-end"}} onClick={prev} />
+    <GrFormNextLink  size={45}  style={{display:"flex",justifyContent:"flex-end"}} onClick={next}    />
 
     </div>
      <div className='movie_banners_cont'>
@@ -48,7 +48,7 @@ movies?.map((ele,i)=>{
                 <img  className='img_banner' src={ele.img} alt="" onClick={() =>
                   navigate("/Discribtion_page/"+ele.id) } />
                  <div style={{maxWidth:"90%",textAlign:"center",fontWeight:"500"}}>{ele.name}</div> 
-                 <div style={{textAlign:"center",fontSize:"20px",fontWeight:"700",color:"black"}}>{ele.rating}</div>
+                 <div className='rate' style={{textAlign:"center",fontSize:"20px",fontWeight:"700",color:"black"}}>{ele.rating}</div>
               </div>
   
 
