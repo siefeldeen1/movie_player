@@ -273,7 +273,7 @@ max-height:120px ;
 
 
 
-@media screen and (max-width: 1440px) and (min-width: 1025px){
+@media screen and (max-width: 1200px) and (min-width: 1025px){
 
   .main_img{
     border-radius: 10px;
